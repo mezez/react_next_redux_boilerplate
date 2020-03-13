@@ -1,0 +1,76 @@
+body {
+  background-color: #7441a9 !important;
+}
+.baloo-font {
+  font-family: "Baloo Bhai", cursive;
+}
+a {
+  text-decoration: none;
+}
+
+.varela_font {
+  font-family: "Varela Round", sans-serif;
+}
+#carouselExampleControls {
+  z-index: 2;
+}
+
+.page-content {
+  background-color: white !important;
+  border-radius: 10px;
+}
+
+.page-content .md-item {
+  border-radius: 10px;
+  border: 1px solid #d7d7d7;
+  padding: 15px 0;
+  margin: 0 -10px;
+}
+
+.page-content .sd-item {
+  border-radius: 10px;
+  border: 1px solid #d7d7d7;
+}
+
+.page-content .sd-item img.product {
+  width: 100%;
+}
+
+.page-content .md-item img.product {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.product-name {
+  min-height: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .product-name {
+    min-height: auto;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #747474;
+}
+
+.search-form {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9;
+}
+.search-form > div {
+  margin: 30vh 10vw;
+  background-color: white;
+}

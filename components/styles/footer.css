@@ -1,0 +1,20 @@
+.footer {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.baloo-font {
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.varela_font {
+    font-family: 'Varela Round', sans-serif;
+}
+.footer * {
+    color: white;
+}
+
+.footer ion-icon {
+    color: white;
+    font-size: 30px;
+}

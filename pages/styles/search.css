@@ -1,0 +1,32 @@
+.category_header {
+    background: #333;
+    margin-bottom: -20px;
+}
+
+.category_header h3 {
+    color: white;
+}
+.filter_options {
+    padding-left: 0px;    
+    list-style: none;
+}
+.filter_options li {
+    list-style: none;
+    display: block;
+    font-family: 'Varela Round', sans-serif;
+}
+.filter_options li ul {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.filter_options li ul li a {
+    display: block;
+}
+.pagination .item {
+    border-radius: 500px;
+    font-family: 'Baloo Bhai', cursive;
+    color: #B7C4CB;
+    font-size: 28px;
+    border: 1px solid #B7C4CB;
+    padding: 6px 21px;
+}

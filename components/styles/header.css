@@ -1,0 +1,30 @@
+.header-bar ion-icon {
+    font-size: 34px;
+    padding: 10px 15px 10px 15px;
+}
+
+.header-bar .country {
+    padding: 19px 15px 19px 15px;
+    vertical-align: top;
+}
+
+.header-bar .leftside ion-icon {
+    border-right: 1px solid #E1E1E1;
+}
+
+.header-bar .rightside ion-icon,
+.header-bar .rightside .country {
+    border-left: 1px solid #E1E1E1;
+}
+
+.header-bar {
+    background: url('/images/navbar.png') repeat-x bottom;
+    min-height: 59px;
+}
+.trans_shadow {
+    position: relative;
+    z-index: 9;
+    background: url('/images/trans-shadow.png') repeat-x top;
+    height: 27px;
+    margin-bottom: -27px;
+}
