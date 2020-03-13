@@ -13,9 +13,8 @@ export default class Category extends SadeRequest {
       const {
         data: { categories }
       } = await this.noTokenRequestInstance.get(`/categories/all-categories`);
-      console.log(categories);
 
-      return data;
+      return categories;
     } catch (err) {
       return this.handleError(err);
     }

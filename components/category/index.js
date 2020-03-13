@@ -21,7 +21,7 @@ export class Index extends Component {
         this.setState(prevState => ({
           ...prevState,
           loadingCategories: loadingCategories,
-          categories: categories
+          categories: [...prevState.categories, categories]
         }));
       }, 2000);
     }
